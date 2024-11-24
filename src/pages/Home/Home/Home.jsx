@@ -1,9 +1,10 @@
 import React from 'react';
+import Word from '../Word/Word';
 
 const Home = () => {
     return (
         <div>
-            <p>This is Home</p>
+            <Word></Word>
         </div>
     );
 };
