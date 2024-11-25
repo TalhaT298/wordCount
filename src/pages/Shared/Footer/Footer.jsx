@@ -10,16 +10,17 @@ import { FaThreads } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
+import logo2 from "../../../assets/W.png";
 const Footer = () => {
   return (
     <footer className="footer  text-neutral-content items-center p-4">
     <aside className="grid-flow-col items-center">
-      <a
-        className="text-xl"
-        style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
-      >
-        বাংলাGPT
-      </a>
+    <div className="flex items-center">
+            <h2 className="text-xl" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
+              Countify
+            </h2>
+            <img src={logo2} className="w-24 h-7" alt="Logo" style={{ marginLeft: "8px" }} />
+          </div>
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
     </aside>
     <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
