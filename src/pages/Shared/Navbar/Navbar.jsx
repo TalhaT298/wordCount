@@ -76,9 +76,11 @@ export const Navbar = () => {
           </svg>
           {dropDownState && (
             <ul className=" z-10  gap-2  bg-black  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
+              <Link to="/blog">
               <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 Blog
               </li>
+              </Link>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 Services
               </li>
