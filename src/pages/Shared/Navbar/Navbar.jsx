@@ -47,10 +47,6 @@ export const Navbar = () => {
             About
             <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
           </li>
-          <li className="group flex  cursor-pointer flex-col" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
-            Contact
-            <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
-          </li>
         </ul>
         <div
           ref={dropDownMenuRef}
@@ -87,9 +83,7 @@ export const Navbar = () => {
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 About
               </li>
-              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
-                Contact
-              </li>
+              
             </ul>
           )}
         </div>
