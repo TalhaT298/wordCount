@@ -38,10 +38,10 @@ const Word = () => {
                         onChange={handleInputChange}
                     />
                     <div className="mt-4 text-lg text-gray-700">
-                        <strong>Word Count:</strong> {wordCount}
+                        <strong style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>Word Count:</strong> {wordCount}
                     </div>
                     <div className="mt-2 text-lg text-gray-700">
-                        <strong>Character Count:</strong> {charCount}
+                        <strong style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>Character Count:</strong> {charCount}
                     </div>
                 </div>
             </div>
