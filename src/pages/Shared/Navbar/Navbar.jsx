@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
 import logo from "../../../assets/W.png";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
@@ -32,10 +33,12 @@ export const Navbar = () => {
           </div>
         </div>
         <ul className="hidden items-center justify-between gap-10 md:flex">
+          <Link to="/blog">
           <li className="group flex  cursor-pointer flex-col" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
             Blog
             <span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
           </li>
+          </Link>
           <li className="group flex  cursor-pointer flex-col" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
             Services
             <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
