@@ -33,7 +33,7 @@ export const Navbar = () => {
         </div>
         <ul className="hidden items-center justify-between gap-10 md:flex">
           <li className="group flex  cursor-pointer flex-col" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
-            Home
+            Blog
             <span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="group flex  cursor-pointer flex-col" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
@@ -74,7 +74,7 @@ export const Navbar = () => {
           {dropDownState && (
             <ul className=" z-10  gap-2  bg-black  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
               <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
-                Home
+                Blog
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 Services
