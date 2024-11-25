@@ -21,9 +21,9 @@ export const Navbar = () => {
   }, []);
   return (
     <div>
-      <nav className="flex items-center justify-between bg-[#393E46] px-4 py-2 text-white mb-24">
+      <nav className="flex items-center justify-between bg-black px-4 py-2 text-white ">
         <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
-          <h2>Logo</h2>
+          <h2 style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>Logo</h2>
         </div>
         <ul className="hidden items-center justify-between gap-10 md:flex">
           <li className="group flex  cursor-pointer flex-col">
@@ -66,7 +66,7 @@ export const Navbar = () => {
             <line x1="4" x2="20" y1="18" y2="18" />{" "}
           </svg>
           {dropDownState && (
-            <ul className=" z-10  gap-2  bg-[#393E46]  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
+            <ul className=" z-10  gap-2  bg-black  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
               <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 ">
                 Home
               </li>
