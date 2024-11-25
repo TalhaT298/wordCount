@@ -24,7 +24,7 @@ export const Navbar = () => {
   return (
     <div>
       <nav className="flex items-center justify-between bg-black px-4 py-2 text-white ">
-        <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
+        <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 ">
           <Link to="/">
           <div className="flex items-center">
             <h2 style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
