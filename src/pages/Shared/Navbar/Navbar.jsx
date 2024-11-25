@@ -40,11 +40,11 @@ export const Navbar = () => {
             Services
             <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
           </li>
-          <li className="group flex  cursor-pointer flex-col">
+          <li className="group flex  cursor-pointer flex-col" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
             About
             <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
           </li>
-          <li className="group flex  cursor-pointer flex-col">
+          <li className="group flex  cursor-pointer flex-col" style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
             Contact
             <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-slate-50 transition-all duration-300 group-hover:w-full"></span>
           </li>
@@ -73,16 +73,16 @@ export const Navbar = () => {
           </svg>
           {dropDownState && (
             <ul className=" z-10  gap-2  bg-black  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
-              <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-slate-50 ">
+              <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 Home
               </li>
-              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 ">
+              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 Services
               </li>
-              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 ">
+              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 About
               </li>
-              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 ">
+              <li className="cursor-pointer  px-6 py-2 text-white hover:bg-slate-50 "style={{ fontFamily: "Atma, serif", fontWeight: 600 }}>
                 Contact
               </li>
             </ul>
