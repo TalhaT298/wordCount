@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center py-20 bg-black text-white">
+      <div className="flex flex-col items-center justify-center py-5 bg-black text-white">
         <h1
           className="text-4xl font-light"
           style={{ fontFamily: "Atma, serif", fontWeight: 600 }}
