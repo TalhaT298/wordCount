@@ -1,1 +1,1 @@
-.
+Countify is a user-friendly platform where you can easily count words and characters in seconds. Knowing the word count of a text can be crucial in many situations. For instance, authors often need to meet specific word requirements for articles, essays, reports, stories, books, papers, and more. Countify ensures your content meets the required length, whether you're aiming to hit a minimum word count or stay within a maximum limit. It's the perfect tool to make your writing process smoother and more efficient.
